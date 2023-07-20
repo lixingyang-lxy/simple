@@ -1,0 +1,14 @@
+# Site
+title: TITLE
+subtitle: SUBTITLE
+description: DESCRIPTION
+keywords: KEYWORDS
+language: en
+# URL
+# url: https://chanvinxiao.com/en/blog
+# root: /en/blog/
+url: https://github.com/lixingyang-lxy/lixingyang-lxy.github.io.git
+root: /lixingyang-lxy.github.io
+# Directory
+source_dir: source-en
+public_dir: public-en
