@@ -67,7 +67,8 @@ prismjs:
 index_generator:
   path: ''
   per_page: 1
-  order_by: -date
+  order_by: -date，
+  layout: index
 
 # Category & Tag
 default_category: uncategorized
@@ -102,14 +103,32 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 ## theme: landscape
-theme: hexo-theme-next
-## theme: next
+## theme: hexo-theme-next
+theme: next
 ## theme: yilia
 
 # Automatically Excerpt
 # auto_excerpt: 
 # enable: true
 # length: 150
+
+# Waline 评论（像 CSDN）
+# waline:
+#   enable: true
+#   serverURL: https://waline-lac-chi.vercel.app  # 后面部署后替换
+#   appId: VchBnVYvbkDK7DCL0g26whbq-gzGzoHsz
+#   appKey: PMrYR9ibhsicNkJU74cMTYNI
+#   placeholder: 说点什么吧...  # 提示语
+#   avatar: retro  # 头像风格
+#   meta: [nick, mail, link]  # 填写项：昵称、邮箱、网址
+#   pageSize: 10  # 每页评论数
+#   lang: zh-CN
+#   emoji: true
+#   imageUpload: true  # 支持传图（像 CSDN）
+#   commentCount: true  # 文章显示评论数
+# comments:
+#   enable: true
+#   type: waline
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

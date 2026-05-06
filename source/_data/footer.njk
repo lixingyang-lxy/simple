@@ -1,0 +1,15 @@
+<div id="waline" style="margin: 60px 0;"></div>
+
+<!-- 加载 CSS（不会报错） -->
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@3/dist/waline.css">
+
+<!-- 加载 JS（正确写法，无报错） -->
+<script type="module">
+import { init } from 'https://unpkg.com/@waline/client@3/dist/waline.js';
+
+init({
+  el: "#waline",
+  serverURL: "https://waline-lac-chi.vercel.app",
+  lang: "zh-CN"
+});
+</script>
